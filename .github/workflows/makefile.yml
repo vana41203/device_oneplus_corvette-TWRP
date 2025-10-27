@@ -1,4 +1,4 @@
-name: Makefile CI
+ename: Makefile CI
 
 on:
   push:
@@ -17,6 +17,6 @@ jobs:
     - name: Build TWRP
       run: |
         source build/envsetup.sh
-        lunch twrp_rmx5010
+        lunch twrp_corvette
         make recoveryimage
       
