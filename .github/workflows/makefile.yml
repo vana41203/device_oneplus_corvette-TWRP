@@ -22,7 +22,6 @@ jobs:
               
     - name: Build TWRP
       run: |
-        source build/envsetup.sh
         lunch twrp_corvette
         make recoveryimage
       
